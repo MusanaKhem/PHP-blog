@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
+require_once('controllers/Router.php');
 
 // Based on uuid package's documentation - edit php file
 
@@ -13,5 +14,11 @@ $uuid = Uuid::uuid4();
 
 // Call function
 echo $uuid->toString() . PHP_EOL;
+
+
+$rooter = new Rooter();
+
+$rooter->rooterReq();
+
 
 ?>
