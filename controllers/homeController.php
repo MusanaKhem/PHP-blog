@@ -26,8 +26,7 @@ class HomeController {
         // 
         $this->_articleManager = new ArticleManager();
         $articles = $this->articleManager->getArticles();
-        require_once('homeView.php');
-
+        require_once('views/homeView.php');
     }
 }
 

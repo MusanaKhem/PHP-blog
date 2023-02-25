@@ -1,7 +1,7 @@
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
-require_once('controllers/Router.php');
+require_once('controllers/Rooter.php');
 
 // Based on uuid package's documentation - edit php file
 
